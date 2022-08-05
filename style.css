@@ -34,11 +34,12 @@ a {
 }
 
 .nav {
+    max-width: 1320px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 15px;
-    padding: 25px 0;
+    margin: 0 auto;
+    padding: 25px 15px;
     z-index: 2;
 }
 
@@ -307,8 +308,9 @@ a {
     color: #FFFFFF;
     background-color: #000000;
     max-width: 180px;
-    padding: 18px 0;
+    padding: 18px 50px;
     margin: 27px auto 0;
+    
 }
 
 .product_card a:hover {
@@ -319,6 +321,9 @@ a {
 
 .product_card {
     max-width: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 @media (max-width: 1400px) {
